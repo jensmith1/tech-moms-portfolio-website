@@ -1,0 +1,21 @@
+
+.nav-container {
+    display: flex;
+    height: 100px;
+    width: 900px;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #1aa6b7;
+    
+}
+.nav-container a {
+    margin: 0 20px;
+    color: #fff;
+    background-color: 
+
+}
+
+.page-1-body {
+    display: flex;
+    
+}
