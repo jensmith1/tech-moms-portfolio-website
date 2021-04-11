@@ -1,3 +1,9 @@
+body {
+    /* put font name here */
+    font-family: "#", sans-serif;
+}
+
+
 
 .nav-container {
     display: flex;
@@ -36,14 +42,24 @@
     
 }
 
+.left-column1 h1 {
+    /* put font name here */
+    font-family: "";
+}
+
 .right-column1 {
     color: purple;
     background-color: pink;
-    
     border: solid black;
     width: 50vw;
-
 }
+
+.page1-photo {
+    width: ;
+    height: ;
+}
+
+
 
 .page-2-body {
     display: flex;
