@@ -22,12 +22,11 @@ body {
 
 .page-1-body {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     /* justify-content: space-around; */
     /* align-items: center;     */
     text-align: center; 
-    height: 500px;
-   
+    height: 400px;
 }
 
 .left-column1 {
@@ -39,7 +38,6 @@ body {
     /* font-size: ; */
     /* font-family:  */
     width: 50vw;
-    
 }
 
 .left-column1 h1 {
@@ -48,27 +46,27 @@ body {
 }
 
 .right-column1 {
+    display: flex;
+    justify-content: center;
     color: purple;
     background-color: pink;
     border: solid black;
     width: 50vw;
+    align-items: center;
 }
 
 .page1-photo {
-    width: ;
-    height: ;
+    width: 30vw;
+    height: 30vw;
+   
 }
-
 
 
 .page-2-body {
     display: flex;
-    
-    justify-content: center;
-    
-    height: 300px;
+    text-align: center;
+    height: 400px;
 
-    
 }
 
 .left-column2 {
@@ -88,6 +86,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-content: ;
+    
     padding: 20px;
     color: purple;
     background-color: lightblue;
@@ -97,8 +97,15 @@ body {
     
 }
 
+.label-container {
+    width: 100px;
+}
 
 .contact-info {
 
 
+}
+
+.page-3-body {
+    
 }

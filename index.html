@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
     <title>Jen Portfolio</title>
     <link href="styles.css" rel="stylesheet">
@@ -24,7 +25,6 @@
                 <a href="">Work</a>
                 <a href="">About Me</a>
                 <a href="">Contact</a>
-
             </nav>
         </header>
 
@@ -50,13 +50,8 @@
 
 
                 <!--right-column1-->
-                <div class="right-column1
-                    height: 300px;
-                    width: 1em;">
-                    <div class="page1-photo">
-                        <!-- <p>insert photo here</p> -->
-                        <img src="assets/jen-picture-corp-alliance.jpg"> alt="jens picture"
-                    </div>
+                <div class="right-column1">
+                    <img class="page1-photo" src="assets/jen-picture-corp-alliance.jpg" alt="jens picture">
                 </div>
             </div>
 
@@ -66,7 +61,6 @@
                     <h1>Let's Talk!
                     </h1>
                     <div class="contact-info">
-
                         <div>jenksmith1@gmail.com</div>
                         <div>(801) 657-6980</div>
                     </div>
@@ -75,29 +69,41 @@
 
                 <!--right-column-->
                 <div class="right-column2">
+                    <div>
+                        <form>
+                            <div>
+                                <label class="label-container" for="name">Name:</label>
+                                <input type="text" name="their-name" id="name"><br><br>
+                            </div>
 
-                    <form>
-                        <label for="name">Name:</label>
-                        <input type="text" name="their-name" id="name"><br>
-                        <label for="phone">Phone #:</label>
-                        <input type="tel" id="phone"><br>
-                        <label for="email">Email:</label>
-                        <input type="email" id="email"><br>
-                        <label for="message">Message:</label>
-                        <input type="text" id="message"><br>
-                        <!-- <label for="submit">Send</label> -->
-                        <input type="submit" id=submit-button>
+                            <div><label for="phone">Phone #:</label>
+                                <input type="tel" id="phone"><br><br>
+                            </div>
+                            <div>
+                                <label for="email">Email:</label>
+                                <input type="email" id="email"><br><br>
+                            </div>
+                            <div>
+                                <label for="message">Message:</label>
+                                <input type="text" id="message"><br><br>
+                            </div>
+                            <div>
+                                <!-- <label for="submit">Send</label> -->
+                                <input type="submit" id=submit-button>
+                            </div>
 
-                    </form>
-
+                        </form>
+                    </div>
                 </div>
             </div>
+
             <!--About Me Info-->
-            <div class="page-3-body-flex">
+            <div class="page-3-body">
                 <!--left-column-->
-                <p>
+                <div>
+
                     About me info here........
-                </p>
+                </div>
                 <div>
                     <img src="" width="300px">
                 </div>
