@@ -14,10 +14,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
 
-
-    <!-- this font is just to try things. take out later -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
+    <!-- take this out later, just to try things -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+
 
 
     <link rel="stylesheet" href="#">
@@ -29,6 +33,9 @@
     <div class="grid-container">
         <!--header-->
         <header class="header-container">
+            <div class="my-name">
+                Jen Smith
+            </div>
             <!--Navigation-->
             <nav class="nav-container">
                 <a href="">Home</a>
@@ -40,125 +47,121 @@
 
         <!--body-area-->
         <main class="body-container">
-            <div class="page-1-body">
+
+            <div class="introduction">
+                <p>Hi!<br>
+                    I'm a
+                    <u>UX Designer</u>
+                    & <u>researcher</u>
+                    of <br>
+                    human behavior. Based in <u>Salt Lake City,</u> <br>
+                    I love exploring complex problems <br>
+                    in search of delightful user experiences.
+                </p>
+            </div>
+
+            <div class="page1-pictures-container">
 
                 <!--left-column1-->
                 <div class="left-column1">
-                    <h1>Jen Smith</h1>
-
-                    <div>
-                        <p>
-                            Hi! I'm a UX Designer & researcher of <br>
-                            human behavior. Based in Salt Lake <br>
-                            City, I love exploring complex problems <br>
-                            in search of delightful user experiences.
-                        </p>
-                    </div>
-
-
-
+                    <img class="page1-photo-shape" src="assets/boats_image.jpg" alt="boat photo">
                 </div>
 
 
                 <!--right-column1-->
                 <div class="right-column1">
-                    <img class="page1-photo" src="assets/jen-picture-corp-alliance.jpg" alt="jens picture">
+                    <img class="page1-photo-jen" src="assets/jen-picture-corp-alliance.jpg" alt="jens picture">
                 </div>
             </div>
 
-            <div class="page1-separator">
 
-            </div>
+            <div class="page2-body">
 
-            <div class="page-2-body">
-                <!--left-column-->
+                <div class="lets-talk">
+                    <h1>Let's Talk!
+                    </h1>
 
-                <div class="left-column2">
-                    <div class="boats-photo">
-                        <img src="assets/boats_image.jpg" alt="boat photo">
+                    <div class="contact-info">
+                        <div>jenksmith1@gmail.com</div>
+                        <div>(801) 657-6980</div>
                     </div>
-
                 </div>
-
-
-                <!--right-column-->
-                <div class="right-column2">
+                <br> <br> <br> <br> <br><br> <br> <br>
+                <form>
                     <div>
-                        <h1>Let's Talk!
-                        </h1>
-
-                        <div class="contact-info">
-                            <div>jenksmith1@gmail.com</div>
-                            <div>(801) 657-6980</div>
-                        </div>
-                        <br> <br> <br> <br> <br>
-
-                        <form>
-                            <div>
-                                <label class="label-container" for="name">Name: &nbsp &nbsp &nbsp</label>
-                                <input type="text" name="their-name" id="name"><br><br>
-                            </div>
-
-                            <div><label for="phone">Phone #: &nbsp</label>
-                                <input type="tel" id="phone"><br><br>
-                            </div>
-                            <div>
-                                <label for="email">Email:&nbsp &nbsp &nbsp &nbsp</label>
-                                <input type="email" id="email"><br><br>
-                            </div>
-                            <div>
-                                <label for="message">Message:</label>
-                                <input type="text" id="message"><br><br>
-                            </div>
-                            <div>
-                                <!-- <label for="submit">Send</label> -->
-                                <input type="submit" id=submit-button>
-                            </div>
-
-                        </form>
+                        <label class="label-container" for="name">&nbsp&nbsp&nbsp Name: </label>
+                        <input type="text" name="their-name" id="name"><br><br>
                     </div>
-                </div>
+
+                    <div><label for="phone">Phone #: </label>
+                        <input type="tel" id="phone"><br><br>
+                    </div>
+                    <div>
+                        <label for="email">&nbsp &nbsp &nbsp Email:</label>
+                        <input type="email" id="email"><br><br>
+                    </div>
+                    <div>
+                        <label for="message">Message:</label>
+                        <input type="text" id="message"><br><br>
+                    </div>
+                    <div>
+                        <!-- <label for="submit">Send</label> -->
+                        &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <input type="submit" id=submit>
+                    </div>
+
+                </form>
             </div>
-
-            <div class="page2-separator">
-
-            </div>
-
-
-            <!--About Me Info-->
-            <div class="page-3-body">
-                <!--left-column-->
-                <div>
-
-                    About me info here........
-                </div>
-                <div>
-                    <img src="" width="300px">
-                </div>
-
-            </div>
-            <div class="page3-separator">
-
-            </div>
-
-        </main>
-
-        <!--footer-->
-        <footer>
-            <div>
-                <!--linkedin-and-git-images and links-->
-                <i class=""></i>
-                <i class=""></i>
-
-            </div>
-        </footer>
-
     </div>
 
 
 
+    <!--About Me Info-->
+    <div class="page3-heading">
+        <h1>About me.........</h1>
+    </div>
+
+    <div class="page3-top-flexbox">
+        <img class="page3-photo1" src="assets/boats_image.jpg" alt="boat photo">
+        <div class="page3-text1">
+            <div>
+                hi
+            </div>
+            <div>
+                bye
+            </div>
+        </div>
+    </div>
 
 
+
+    <div class="page3-bottom-flexbox">
+        <div class="page3-text2">
+            <div>
+                hello
+            </div>
+            <div>
+                goodbye
+            </div>
+        </div>
+        <img class="page3-photo2" src="assets/jen-picture-corp-alliance.jpg" alt="jens picture">
+    </div>
+    </div>
+
+    </div>
+
+    </main>
+
+    <!--footer-->
+    <footer>
+        <div>
+            <!--linkedin-and-git-images and links-->
+            <i class=""></i>
+            <i class=""></i>
+
+        </div>
+    </footer>
+
+    </div>
 
 
 
